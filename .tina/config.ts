@@ -20,9 +20,9 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "blog",
+        label: "blog",
+        path: "/src/content/blog",
         fields: [
           {
             type: "string",
@@ -30,6 +30,26 @@ export default defineConfig({
             label: "Title",
             isTitle: true,
             required: true,
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "string",
+            name: "pubDate",
+            label: "Publish Date",
+          },
+          {
+            type: "string",
+            name: "updatedDate",
+            label: "Updated Date",
+          },
+          {
+            type: "image",
+            name: "heroImage",
+            label: "Hero Image",
           },
           {
             type: "rich-text",
