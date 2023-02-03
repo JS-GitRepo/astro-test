@@ -11,9 +11,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.2",
+    "@astrojs/image": "^0.13.0",
     "@astrojs/mdx": "^0.15.1",
+    "@astrojs/react": "^2.0.1",
     "@astrojs/rss": "^2.1.0",
-    "@astrojs/sitemap": "^1.0.0"
+    "@astrojs/sitemap": "^1.0.0",
+    "@tinacms/cli": "^1.0.8",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^2.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tinacms": "^1.1.5"
   }
 }
